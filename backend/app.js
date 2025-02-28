@@ -29,12 +29,12 @@ app.get('/api/posts',(req, res, next) => {
     const posts = 
         [{
             id: "adad",
-            title: "first tit;e server",
+            title: "first title servepoiytuyrhtgdhfjgkr",
             content: "first content"
         },
         {
             id: "adad",
-            title: "second tit;e server",
+            title: "second title server",
             content: "second content"
         }
     ];
