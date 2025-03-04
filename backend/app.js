@@ -37,8 +37,8 @@ app.use((req, res, next) => {
         });
         });
 
-app.get('/api/posts',(req, res, next) => {
-    const posts = 
+    app.get('/api/posts',(req, res, next) => {
+        const posts = 
         [{
             id: "adad",
             title: "first title servepoiytuyrhtgdhfjgkr",
