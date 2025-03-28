@@ -1,33 +1,54 @@
 mat-card {
-  max-width: 500px;
-  margin: 20px auto;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  background-color: #ffffff;
+  margin: 1rem auto;
+  width: 80%;
+  max-width: 800px;
+}
+
+mat-form-field {
+  display: block;
+  width: 100%;
+  margin: 1rem 0;
 }
 
 form {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-}
-
-mat-form-field {
-  width: 100%;
+  align-items: center;
 }
 
 button {
-  width: 100px;
-  align-self: flex-end;
+  margin: 1rem 0;
+  width: 200px;
 }
 
-mat-error {
-  font-size: 12px;
-  color: red;
+mat-spinner {
+  margin: 1rem auto;
 }
 
-.spinner {
-  display: block;
-  margin: auto;
+input[type="file"] {
+  visibility: hidden;
+}
+
+.image-preview {
+  height: 5rem;
+  margin: 1rem 0;
+}
+
+.image-preview img {
+  height: 100%;
+}
+
+.image-upload {
+  margin: 1rem 0;
+  width: 100%;
+  text-align: center;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.form-container {
+  width: 100%;
+  padding: 1rem;
 }
